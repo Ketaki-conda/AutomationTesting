@@ -17,7 +17,7 @@ public class AlertHandling {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.findElement(By.id("alertButton")).click();
         Alert myAlert = driver.switchTo().alert();
-        System.out.println(myAlert.getText());
+        //System.out.println(myAlert.getText());
         myAlert.accept();
 
 	}
